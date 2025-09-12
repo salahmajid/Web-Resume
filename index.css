@@ -8,7 +8,7 @@ body {
 .resume-page {
     background-color: white;
     padding: 1in;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     max-width: 8.5in;
     margin: 0 auto;
 }
@@ -17,19 +17,17 @@ body {
     text-align: center;
     margin-bottom: 20px;
 }
-.contact-information{
+
+.contact-information {
     text-align: center;
 }
 
-.highlights-of-qualifications{
-
-}
-.highlights-of-qualifications hr{
+.highlights-of-qualifications hr {
     margin-top: -20px;
     margin-bottom: 15px;
 }
 
-.summary-of-technical-qualifications hr{
+.summary-of-technical-qualifications hr {
     margin-top: -20px;
     margin-bottom: 15px;
 }
@@ -39,47 +37,49 @@ body {
     list-style: inside;
 }
 
-.summary-of-technical-qualifications h5{
+.summary-of-technical-qualifications h5 {
     font-style: italic;
 }
 
-.education{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-}
-.education h4{
-    grid-column: 1 / -1;
-}
-
-.projects{
-
-}
-
-.projects p{
-    text-indent: 20px;
-}
-
-
-.projects li{
-    text-indent: 40px;
-    list-style: inside;
-}
-.projects hr{
+.education hr {
     margin-top: -20px;
     margin-bottom: 15px;
 }
 
-.experience p{
-    text-indent: 40px;
-    
-
+.education p{
+    text-indent: 15px;
 }
-.experience li{
+
+.projects p {
+    text-indent: 20px;
+}
+
+
+.projects li {
     text-indent: 40px;
     list-style: inside;
 }
 
-.language-skills{
-    
+.projects hr {
+    margin-top: -20px;
+    margin-bottom: 15px;
+}
+
+.experience p {
+    text-indent: 40px;
+}
+
+.experience li {
+    text-indent: 40px;
+    list-style: inside;
+}
+
+.experience hr {
+    margin-top: -20px;
+    margin-bottom: 15px;
+}
+
+.language-skills hr {
+    margin-top: -20px;
+    margin-bottom: 15px;
 }
