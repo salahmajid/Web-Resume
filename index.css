@@ -32,7 +32,7 @@ body {
     margin-bottom: 15px;
 }
 
-.summary-of-technical-qualifications li{
+.summary-of-technical-qualifications li {
     text-indent: 40px;
     list-style: inside;
 }
@@ -46,8 +46,13 @@ body {
     margin-bottom: 15px;
 }
 
-.education p{
+.education p {
     text-indent: 15px;
+}
+
+
+.projects {
+    margin-top: 60px;
 }
 
 .projects p {
