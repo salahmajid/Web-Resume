@@ -17,8 +17,8 @@ This project is created for educational purposes as part of Lewis University cou
 
 
 # Author
-Salah Abdelmajid
-Lewis University
-business.salahabdelmajid@gmail.com
+- Salah Abdelmajid
+- Lewis University
+- business.salahabdelmajid@gmail.com
 
 Last Updated: 10/18/2025
