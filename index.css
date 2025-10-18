@@ -88,3 +88,39 @@ body {
     margin-top: -20px;
     margin-bottom: 15px;
 }
+
+@media print {{
+    width: 100%;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .resume-page {
+    box-shadow: none;
+    max-width: 100%;
+    padding: 0.5in;
+    margin: 0;
+  }
+
+  h2, h3, h4, h5 {
+    page-break-after: avoid;
+  }
+  
+  .highlights-of-qualifications,
+  .summary-of-technical-qualifications,
+  .education,
+  .projects,
+  .experience,
+  .language-skills {
+    page-break-inside: avoid;
+  }
+  
+  * {
+    color: black !important;
+  }
+  
+  @page {
+    margin: 0.5in;
+  }
+}
